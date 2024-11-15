@@ -13,7 +13,7 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/project-N1neGeeks/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-N1neGeeks/assets/index-BFWIG2JN.css">
+    <link rel="stylesheet" crossorigin href="/project-N1neGeeks/assets/index-DgjZ2-3w.css">
   </head>
   <body>
     <header class="header">
@@ -47,9 +47,54 @@
 </section>
 
       <section class="contact-us" id="contact-us">
-  <div class="container"></div>
-</section>
+  <div class="container">
+    <h2 class="contact-title">Contact Us</h2>
 
+    <div class="form-img-container">
+      <div class="form-container">
+
+        <p class="form-text">
+          Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you
+          shortly.
+        </p>
+
+        <form class="contact-form">
+          <div class="label-input-container">
+            <label class="form-label" for="user-name"></label>
+            <input class="form-input" type="text" id="user-name" name="user-name" placeholder="Name" required>
+          </div>
+
+          <div class="label-input-container">
+            <label class="form-label" for="user-email"></label>
+            <input class="form-input" type="email" id="user-email" name="user-email" placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
+          </div>
+
+          <div class="label-input-container">
+            <label class="form-label" for="user-tel"></label>
+            <input class="form-input" type="tel" id="user-tel" name="user-tel" placeholder="+380-XX-XXX-XX-XX"
+              value="+380" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" required>
+          </div>
+
+          <div class="label-comment-container">
+            <label class="form-label" for="user-comment"></label>
+            <textarea class="form-comment" name="user-comment" id="user-comment" placeholder="Comment"></textarea>
+          </div>
+
+          <button class="form-button" type="submit">Send</button>
+        </form>
+      </div>
+
+      <picture>
+        <source srcset="/project-N1neGeeks/assets/contact-desk-img-Dnjy3NRt.png 1x, /project-N1neGeeks/assets/contact-desk-img@2x-m6U-uvH7.png 2x" media="(min-width: 1280px)">
+        <source srcset="/project-N1neGeeks/assets/contact-tab-img-BCkiMWrX.png 1x, /project-N1neGeeks/assets/contact-tab-img@2x-DB6GSoEJ.png 2x" media="(min-width: 768px)">
+        <source srcset="/project-N1neGeeks/assets/contact-mob-img-CcXTbRcJ.png 1x, /project-N1neGeeks/assets/contact-mob-img@2x-CNjmSvrG.png 2x" media="(max-width: 767px)">
+        <img class="form-img" src="/project-N1neGeeks/assets/contact-mob-img-CcXTbRcJ.png" alt="A watch">
+      </picture>
+    </div>
+
+  </div>
+</section>
       <div class="menu"></div>
 
     </main>
