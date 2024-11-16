@@ -106,7 +106,12 @@
 }
 
 .menu-follow-icon {
-  fill: #fbfbfb;
+  fill: #cbcbcb;
+}
+
+.menu-follow-link:hover .menu-follow-icon,
+.menu-follow-link:active .menu-follow-icon {
+  fill: #cbcbcb;
 }
 
 @media (min-resolution: 192dpi) {
