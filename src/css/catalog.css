@@ -54,6 +54,12 @@
   display: flex;
   justify-content: center;
 }
+.catalog-btn:focus {
+  background: #1f3cd4;
+}
+.catalog-btn:hover {
+  background: #1f3cd4;
+}
 .card-watch.mob-hidd {
   display: none;
 }
