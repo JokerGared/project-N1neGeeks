@@ -31,8 +31,7 @@
 .section-sale-item {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 16px;
-  width: 80px;
-  height: 80px;
+  max-width: 80px;
 
   background-color: #f3f3f3;
 
@@ -42,8 +41,7 @@
 .main-watch-sale {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: 335px;
-  height: 385px;
+  max-width: 335px;
 
   background-color: #f3f3f3;
 
@@ -52,8 +50,7 @@
 
 .watch-description-block {
   border-radius: 30px;
-  width: 335px;
-  height: 561px;
+  max-width: 335px;
 
   background-color: #3350e9;
 
@@ -173,24 +170,21 @@
 
   .section-sale-item {
     border-radius: 20px;
-    width: 132px;
-    height: 132px;
+    max-width: 132px;
 
     padding: 15px 17px;
   }
 
   .main-watch-sale {
     border-radius: 50px;
-    width: 552px;
-    height: 558px;
+    max-width: 552px;
 
     padding: 79px 111px;
   }
 
   .watch-description-block {
     border-radius: 50px;
-    width: 704px;
-    height: 518px;
+    max-width: 704px;
 
     padding: 60px;
   }
@@ -242,13 +236,12 @@
   }
 
   .main-watch-sale {
-    width: 428px;
+    max-width: 428px;
 
     padding: 79px 49px;
   }
 
   .watch-description-block {
-    width: 530px;
-    height: 558px;
+    max-width: 530px;
   }
 }
