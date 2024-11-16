@@ -1,2 +1,154 @@
-.catalog {
+.sect-name {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+.watch-name {
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 8px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.watch-price {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+.card-watch-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 262px;
+  margin-bottom: 10px;
+}
+.card-watch-slide-div {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  background-color: #f3f3f3;
+  padding: 24px 28px;
+}
+.card-watch-slide-text {
+  display: flex;
+  flex-direction: column;
+}
+.catalog-btn {
+  font-size: 14px;
+  line-height: 1.25;
+  text-align: center;
+  color: #fbfbfb;
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background: #3350e9;
+}
+.catalog-btn-con {
+  display: flex;
+  justify-content: center;
+}
+.card-watch.mob-hidd {
+  display: none;
+}
+.card-watch-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    min-width: 768px;
+  }
+  .card-watch-slide-div {
+    height: 414px;
+    padding: 24px 32px;
+  }
+  .card-watch {
+    width: calc((100% - 16px) / 2);
+  }
+  .card-watch.mob-hidd {
+    display: block;
+  }
+  .card-watch-list {
+    flex-wrap: wrap;
+    row-gap: 32px;
+    column-gap: 16px;
+    flex-direction: row;
+    margin-bottom: 0;
+  }
+  .catalog-btn-con {
+    display: none;
+  }
+  .img-port-tab {
+    width: 268px;
+    height: 292px;
+  }
+  .card-watch-slide {
+    height: 312px;
+  }
+  .watch-name {
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+  }
+  .watch-price {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.5);
+  }
+  .sect-name {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 92%;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    min-width: 1280px;
+  }
+  .card-watch-list {
+    column-gap: 23px;
+  }
+  .card-watch {
+    width: calc((100% - 46px) / 3);
+  }
+  .img-port-tab {
+    width: 292px;
+    height: 292px;
+  }
+  .watch-price {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.5);
+  }
+  .watch-name {
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+  }
+  .sect-name {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 92%;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+  }
 }
