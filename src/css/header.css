@@ -1,2 +1,159 @@
 .header {
+    border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+    
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-list,
+.mobile-social-list {
+    display: none;
+}
+
+.logo {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #0c0c0c;
+}
+
+.header-logo {
+    display: block;
+}
+
+.mobile-menu-button {
+    background-color: transparent;
+    border: none;
+    height: auto;
+    padding: 0;
+    
+}
+
+.mobile-menu-icon {
+    width: 34px;
+    height: 34px;
+    stroke: #0C0C0C;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.current {          
+    color: #3350e9;
+}
+
+
+@media screen and (min-width: 768px) {
+    .logo {
+    font-size: 20px;
+}
+    
+    
+.mobile-menu-icon {
+    width: 40px;
+    height: 40px;
+}
+    
+.nav-list,
+.mobile-social-list {
+    display: none;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+}
+
+@media screen and (min-width: 1280px) {
+    .header-container {
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
+.header-nav {
+    align-self: start;
+}
+
+.nav-link {
+    display: block;
+    font-size: 16px;
+    line-height: 1.29;
+    color: #0c0c0c;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link.current {
+    position: relative;
+}
+
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;   
+}
+.nav-link.current::after {
+    content: "";
+    position: absolute;
+    left: 42%;
+    bottom: -9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    fill: #3350e9;
+    
+    background-color: #3350e9;
+}
+
+.mobile-social-list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.social-item {
+    width: 36px;
+    height: 36px;
+}
+
+.social-link {
+    border: 1px solid rgba(12, 12, 12, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-icon {
+    fill: #0c0c0c;
+}
+
+.social-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.social-link:hover {
+    border: 1px solid rgba(51, 80, 233, 0.1);
+}
+
+.social-item:hover .social-icon,
+.social-link:hover .social-icon {
+    fill: #3350e9; 
+}
+
+.mobile-menu-button {
+    display: none;
+}
+
 }
