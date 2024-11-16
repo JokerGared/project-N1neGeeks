@@ -83,6 +83,7 @@
     row-gap: 32px;
     column-gap: 16px;
     flex-direction: row;
+    margin-bottom: 0;
   }
   .catalog-btn-con {
     display: none;
