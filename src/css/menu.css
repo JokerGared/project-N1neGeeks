@@ -77,9 +77,7 @@
   padding-bottom: 12px;
 }
 
-.menu-nav-link.current::after,
-.menu-nav-link.active::after,
-.menu-nav-link:hover::after {
+.menu-nav-link.current::after {
   content: '';
   width: 8px;
   height: 8px;
@@ -112,6 +110,7 @@
 
 .menu-follow-icon {
   fill: #cbcbcb;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-follow-link:hover .menu-follow-icon,
