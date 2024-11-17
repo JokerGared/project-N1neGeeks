@@ -27,9 +27,15 @@ section {
 }
 
 @media screen and (min-width: 768px) {
-  padding-bottom: 80px;
+  section {
+    padding-bottom: 80px;
+  }
+  
 }
 
 @media screen and (min-width: 1280px) {
-  padding-bottom: 100px;
+  section {
+    padding-bottom: 100px;
+  }
+  
 }

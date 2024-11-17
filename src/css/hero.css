@@ -86,20 +86,9 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .hero-content-container {
-    /* justify-content: space-between;
-    gap: 0; */
-  }
-
   .hero-title {
     font-size: 72px;
     line-height: 0.88;
     max-width: 597px;
-  }
-
-  .hero-text {
-    /* font-size: 16px;
-    line-height: 1.25;
-    max-width: 480px; */
   }
 }
