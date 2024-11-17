@@ -54,7 +54,7 @@
 }
 
 .close-menu-icon {
-  fill: #fbfbfb;
+  stroke: #fbfbfb;
 }
 
 .menu-nav-list {
@@ -71,6 +71,10 @@
   text-align: center;
   color: #fbfbfb;
   position: relative;
+}
+
+.menu-nav-item.current-item {
+  padding-bottom: 12px;
 }
 
 .menu-nav-link.current::after,
@@ -129,6 +133,26 @@
 
   .menu-nav-list {
     gap: 32px;
+  }
+
+  .close-menu-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .close-menu-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .menu-follow-link {
+    width: 36px;
+    height: 36px;
+  }
+
+  .menu-follow-icon {
+    width: 20px;
+    height: 20px;
   }
 }
 
