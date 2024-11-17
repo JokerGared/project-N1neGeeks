@@ -25,6 +25,7 @@
     line-height: 1;
     letter-spacing: -0.02em;
     color: #fbfbfb;
+    min-height: 167px;
 }
 
 .advertisement-content span {
@@ -73,6 +74,7 @@
     .advertisement-content {
         font-size: 48px;
         line-height: 0.92;
+        min-height: 185px;
     }
 }
 
@@ -96,6 +98,7 @@
 
     .advertisement-content {
         max-width: 690px;
+        min-height: 132px;
         
     }
 
