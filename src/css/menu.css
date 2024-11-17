@@ -8,7 +8,7 @@
 
   width: 200px;
   height: 100vh;
-  background-color: black;
+  background-color: #0c0c0c;
   background-image: url(/img/menu-background-mob.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -73,8 +73,9 @@
   position: relative;
 }
 
-.menu-nav-item:hover .menu-nav-link::after,
-.menu-nav-item:active .menu-nav-link::after {
+.menu-nav-link.current::after,
+.menu-nav-link.active::after,
+.menu-nav-link:hover::after {
   content: '';
   width: 8px;
   height: 8px;
@@ -83,7 +84,7 @@
 
   position: absolute;
   left: 50%;
-  bottom: -15px;
+  bottom: -12px;
   transform: translateX(-50%);
 }
 
@@ -111,7 +112,7 @@
 
 .menu-follow-link:hover .menu-follow-icon,
 .menu-follow-link:active .menu-follow-icon {
-  fill: #cbcbcb;
+  fill: #fbfbfb;
 }
 
 @media (min-resolution: 192dpi) {
@@ -124,6 +125,10 @@
   .menu {
     width: 330px;
     background-image: url(/img/menu-background-tab.jpg);
+  }
+
+  .menu-nav-list {
+    gap: 32px;
   }
 }
 
