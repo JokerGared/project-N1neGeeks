@@ -25,6 +25,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .anastasia-item,
 .victoria-item {
   display: none;
@@ -56,6 +57,7 @@
 /* -----Tablet ----- */
 @media only screen and (min-width: 768px) {
   .title {
+    margin-bottom: 40px;
     font-size: 48px;
     line-height: 0.92;
   }
@@ -92,6 +94,10 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .title {
+    margin-bottom: 40px;
+  }
+
   .list-reviews {
     gap: 20px;
   }
