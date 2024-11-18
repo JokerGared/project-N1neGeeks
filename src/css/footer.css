@@ -10,8 +10,6 @@ width: 335px;
 height: 581px;
 background-color: #0c0c0c;
 }
-
-
 .footer .container {
 display: flex;
 align-items: flex-start;
@@ -79,8 +77,6 @@ width: 152px;
 height: 44px;
 border: 1px solid rgba(251, 251, 251, 0.2);
 border-radius: 16px;
-width: 152px;
-height: 44px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -93,10 +89,19 @@ text-transform: uppercase;
 text-align: center;
 color: #fbfbfb;
 }
+.footer-down {
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 24px;
+width: 279px;
+height: 148px;
+}
 .footer-all {
-    border-bottom: 1px solid rgba(251, 251, 251, 0.1);
-    padding-bottom: 24px;
-    margin-bottom: 24px;
+border-bottom: 1px solid rgba(251, 251, 251, 0.1);
+padding-bottom: 24px;
+margin-bottom: 24px;
 }
 .footer-menu-container {
 display: flex;
@@ -129,15 +134,6 @@ font-weight: 500;
 font-size: 12px;
 line-height: 1.33333;
 color: #fbfbfb;
-}
-.footer-down {
-display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: column;
-gap: 24px;
-width: 279px;
-height: 148px;
 }
 .footer-down-menu-container {
 display: flex;
@@ -172,4 +168,199 @@ line-height: 1.4;
 letter-spacing: -0.02em;
 text-align: right;
 color: rgba(251, 251, 251, 0.5);
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+flex-direction: column;
+padding: 40px 40px 28px 40px;
+width: 704px;
+height: 540px;
+}
+    .footer .container {
+gap: 100px;
+width: 624px;
+height: 472px;
+}
+    .footer-nav-logo {
+width: 624px;
+height: 262px;
+}
+    .footer-nav {
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 20px;
+width: 128px;
+height: 80px;
+}
+    .footer-nav-logo {
+font-size: 20px;
+}
+    .footer-icons {
+width: 128px;
+height: 36px;
+}
+    .footer-icons-soc {
+width: 36px;
+height: 36px;
+}
+    .footer-icons-soc-link {
+width: 20px;
+height: 20px;
+}
+    .footer-text {
+font-size: 28px;
+line-height: 1.14286;
+}
+    .tel {
+width: 160px;
+height: 48px;
+}
+    .tel-link {
+font-size: 14px;
+line-height: 1.28571;
+}
+    .footer-down {
+gap: 28px;
+width: 624px;
+height: 110px;
+}
+    .footer-all {
+padding-bottom: 28px;
+margin-bottom: 28px;
+}
+    .footer-menu-container {
+gap: 159px;
+width: 624px;
+height: 18px;
+}
+    .footer-menu {
+flex-wrap: nowrap;
+align-items: flex-end;
+gap: 19px;
+width: 400px;
+height: 18px;
+}
+    .footer-menu-item {
+font-size: 14px;
+line-height: 1.28571;
+text-align: center;
+}
+    .footer-address {
+font-size: 14px;
+line-height: 1.28571;
+}
+    .footer-down-menu-container {
+flex-direction: row;
+gap: 159px;
+width: 624px;
+height: 18px;
+}
+    .footer-down-menu-text {
+font-size: 14px;
+line-height: 1.28571;
+}
+    .footer-menu-two {
+width: 204px;
+height: 18px;
+}
+    .footer-down-menu-text-two {
+font-size: 14px;
+line-height: 1.28571;
+}
+}
+
+
+@media screen and (min-width: 1158px) {
+    .footer {
+        flex-direction: column;
+        padding: 40px 40px 28px 40px;
+        width: 1216px;
+        height: 400px;
+    }
+    .footer .container {
+        gap: 126px;
+        width: 1136px;
+        height: 332px;
+    }
+    .footer-nav-logo {
+
+    }
+    .footer-nav {
+        width: 112px;
+        height: 24px;
+    }
+    .footer-nav-logo {
+        font-size: 20px;
+    }
+    .footer-icons {
+        width: 128px;
+        height: 36px;
+    }
+    .footer-icons-soc {
+        width: 36px;
+        height: 36px;
+    }
+    .footer-icons-soc-link {
+        width: 20px;
+        height: 20px;
+    }
+    .footer-text {
+        font-size: 28px;
+        line-height: 1.14286;
+    }
+    .tel {
+        width: 160px;
+        height: 48px;
+    }
+    .tel-link {
+        font-size: 14px;
+        line-height: 1.28571;
+    }
+    .footer-down {
+        gap: 28px;
+        width: 1136px;
+        height: 110px;
+    }
+    .footer-all {
+        stroke-width: 1px;
+    }
+    .footer-menu-container {
+        gap: 469px;
+        width: 1136px;
+        height: 36px;
+    }
+    .footer-menu {
+        flex-wrap: ;
+        gap: 40px;
+        width: 505px;
+        height: 18px;
+    }
+    .footer-menu-item {
+        font-size: 14px;
+        line-height: 1.28571;
+    }
+    .footer-address {
+        font-size: 14px;
+        line-height: 1.28571;
+    }
+    .footer-down-menu-container {
+        flex-direction: row;
+        gap: 671px;
+        width: 1136px;
+        height: 18px;
+    }
+    .footer-down-menu-text {
+        font-size: 14px;
+        line-height: 1.28571;
+    }
+    .footer-menu-two {
+        width: 204px;
+        height: 18px;
+    }
+    .footer-down-menu-text-two {
+        font-size: 14px;
+        line-height: 1.28571;
+    }
 }
