@@ -1,8 +1,4 @@
 .footer {
-display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: row;
 gap: 10px;
 border-radius: 30px;
 padding: 40px 28px 28px 28px;
@@ -16,11 +12,14 @@ align-items: flex-start;
 justify-content: flex-start;
 flex-direction: column;
 gap: 92px;
+min-width: 279px;
+margin: 0 auto;
+padding: 0 15px;
 }
 .footer-nav {
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: space-between;
 flex-direction: row;
 gap: 4px;
 width: 90px;
@@ -31,6 +30,7 @@ font-weight: 500;
 font-size: 16px;
 letter-spacing: -0.02em;
 color: #fbfbfb;;
+text-decoration: none;
 }
 .footer-icons {
 display: flex;
@@ -57,6 +57,7 @@ height: 34px;
 width: 18px;
 height: 18px;
 opacity: 0.8;
+display: inline-block;
 }
 .footer-icons-soc-icon {
 fill: #fbfbfb;
@@ -68,6 +69,7 @@ line-height: 1.2;
 letter-spacing: -0.02em;
 text-align: center;
 color: #fbfbfb;
+margin-top: 15px;
 }
 .tel {
 width: 152px;
@@ -77,6 +79,7 @@ border-radius: 16px;
 display: flex;
 align-items: center;
 justify-content: center;
+margin-top: 10px;
 }
 .tel-link {
 font-weight: 500;
@@ -85,6 +88,7 @@ line-height: 1.33333;
 text-transform: uppercase;
 text-align: center;
 color: #fbfbfb;
+text-decoration: none;
 }
 .footer-down {
 display: flex;
@@ -118,6 +122,8 @@ flex-direction: row;
 gap: 16px;
 width: 147px;
 height: 64px;
+list-style: none;
+padding: 0;
 }
 .footer-menu-item {
 font-weight: 500;
@@ -125,21 +131,24 @@ font-size: 12px;
 line-height: 1.33333;
 text-align: center;
 color: #fbfbfb;
+display: inline-block;
 }
 .footer-address {
 font-weight: 500;
 font-size: 12px;
 line-height: 1.33333;
 color: #fbfbfb;
+text-decoration: none;
 }
 .footer-down-menu-container {
 display: flex;
-align-items: flex-start;
-justify-content: flex-start;
+align-items: center;
+justify-content: space-between;
 flex-direction: column;
 gap: 8px;
 width: 187px;
 height: 36px;
+margin-top: 20px;
 }
 .footer-down-menu-text {
 font-weight: 500;
@@ -157,6 +166,8 @@ flex-direction: row;
 gap: 20px;
 width: 152px;
 height: 14px;
+list-style: none;
+margin: 0;
 }
 .footer-down-menu-text-two {
 font-weight: 500;
@@ -165,6 +176,7 @@ line-height: 1.4;
 letter-spacing: -0.02em;
 text-align: right;
 color: rgba(251, 251, 251, 0.5);
+cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
@@ -185,7 +197,6 @@ height: 262px;
 }
     .footer-nav {
 align-items: flex-start;
-justify-content: flex-start;
 flex-direction: column;
 gap: 20px;
 width: 128px;
