@@ -6,6 +6,9 @@
     background-color: #0c0c0c;
     border-radius: 30px;
     padding: 40px 28px 28px 28px;
+    display: flex;
+    flex-direction: column;
+    min-height: 581px;
 }
 
 .footer-logo-icons-wrap {
@@ -148,6 +151,9 @@
 
     .footer-box {
         padding: 40px 40px 28px 40px;
+        display: flex;
+        flex-direction: column;
+        min-height: 540px;
     }
 
     .footer-contact-wrap {
@@ -223,6 +229,12 @@
 @media screen and (min-width: 1258px) {
     .footer-box {
         position: relative;
+        display: flex;
+            flex-direction: column;
+            min-height: 400px;
+    }
+    .footer-box-up {
+        margin-bottom: auto
     }
 
     .footer-text {
