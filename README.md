@@ -2,9 +2,13 @@
 
 ====== https://jokergared.github.io/project-N1neGeeks/ =====
 
-Team Lead: Oleh Cherkasov (Joker Gared) - https://github.com/JokerGared
 
-Scrum Master Viktoria Kopasovska (kopasovska) - https://github.com/kopasovska
+Team Lead:
+Oleh Cherkasov (Joker Gared) - https://github.com/JokerGared
+
+Scrum Master:
+Viktoria Kopasovska (kopasovska) - https://github.com/kopasovska
+
 
 Collaborators:
 
