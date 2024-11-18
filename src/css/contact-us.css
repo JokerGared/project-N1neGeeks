@@ -94,7 +94,7 @@
 }
 
 .form-img {
-    border-radius: 50px;
+    border-radius: 30px;
     margin: 0 auto;
 }
 
@@ -148,6 +148,10 @@
         border-radius: 16px;
         min-width: 160px;
         height: 52px;
+    }
+
+    .form-img {
+        border-radius: 50px;
     }
 }
 
