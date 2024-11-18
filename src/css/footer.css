@@ -33,7 +33,6 @@
     border-radius: 10px;
     width: 34px;
     height: 34px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +44,8 @@
 }
 
 .footer-icons-link:hover .footer-icons-soc-icon,
-.footer-icons-link:active .footer-icons-soc-icon {
+.footer-icons-link:active .footer-icons-soc-icon,
+.footer-icons-link:focus .footer-icons-soc-icon {
     fill: #fbfbfb;
 }
 
@@ -69,7 +69,6 @@
 .tel-link {
     font-size: 12px;
     line-height: 1.33;
-    /* треба заокруглювати до 2 цифр після коми */
     text-align: center;
     color: #fbfbfb;
 }
@@ -147,7 +146,6 @@
 
     .footer-contact-wrap {
         flex-direction: row;
-        /* тому що було колумн і треба тепер змінити*/
         justify-content: space-between;
         align-items: flex-start;
     }
