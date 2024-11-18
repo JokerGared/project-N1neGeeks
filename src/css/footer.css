@@ -137,8 +137,102 @@
 }
 
 @media screen and (min-width: 768px) {
+    .footer .container {
+        padding-bottom: 32px;
+    }
+
+    .footer-box {
+        padding: 40px 40px 28px 40px;
+    }
+
+    .footer-contact-wrap {
+        flex-direction: row;
+        /* тому що було колумн і треба тепер змінити*/
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .footer-logo {
+        font-size: 20px;
+    }
+
+    .footer-icons-link {
+        width: 36px;
+        height: 36px;
+    }
+
+    .footer-icons-soc-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .tel {
+        width: 160px;
+        height: 48px;
+    }
+
+    .tel-link {
+        font-size: 14px;
+        line-height: 1.29;
+    }
+
+    .footer-text {
+        width: 524px;
+        margin: 0 auto 100px auto;
+        font-size: 28px;
+        line-height: 1.14;
+    }
+
+    .footer-menu-link {
+        font-size: 14px;
+        line-height: 1.29;
+    }
+
+    .footer-address {
+        max-width: 162px;
+    }
+
+    .footer-address-link {
+        font-size: 14px;
+        line-height: 1.29;
+    }
+
+    .footer-menu-address-wrap {
+        margin-bottom: 28px;
+    }
+
+    .footer-legal-list {
+        padding-top: 28px;
+    }
+
+    .footer-legal-text {
+        font-size: 14px;
+        line-height: 1.28px;
+    }
+
+    .copyright {
+        flex-basis: auto;
+        margin-right: auto;
+    }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1258px) {
+    .footer-box {
+        position: relative;
+    }
 
+    .footer-text {
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .footer-contact-wrap {
+        margin-bottom: 142px;
+    }
+
+    .footer-menu {
+        column-gap: 40px;
+    }
 }
