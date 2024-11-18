@@ -17,9 +17,6 @@ justify-content: flex-start;
 flex-direction: column;
 gap: 92px;
 }
-.footer-nav-logo {
-
-}
 .footer-nav {
 display: flex;
 align-items: center;
@@ -29,7 +26,7 @@ gap: 4px;
 width: 90px;
 height: 19px;
 }
-.footer-nav-logo {
+.footer-nav-link {
 font-weight: 500;
 font-size: 16px;
 letter-spacing: -0.02em;
@@ -182,7 +179,7 @@ gap: 100px;
 width: 624px;
 height: 472px;
 }
-    .footer-nav-logo {
+    .footer-nav-link {
 width: 624px;
 height: 262px;
 }
@@ -291,7 +288,7 @@ line-height: 1.28571;
         width: 112px;
         height: 24px;
     }
-    .footer-nav-logo {
+    .footer-nav-link {
         font-size: 20px;
     }
     .footer-icons {
