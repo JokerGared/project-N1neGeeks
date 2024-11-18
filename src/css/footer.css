@@ -19,6 +19,7 @@
     letter-spacing: -0.02em;
     color: #fbfbfb;
     text-decoration: none;
+    max-width: fit-content;
 }
 
 .footer-icons-list {
@@ -97,6 +98,11 @@
     justify-content: flex-start;
     column-gap: 16px;
     row-gap: 8px;
+}
+
+.footer-menu a,
+.footer-legal-list a {
+    display: block;
 }
 
 .footer-menu-link {
