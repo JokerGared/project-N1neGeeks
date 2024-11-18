@@ -86,7 +86,6 @@
 
 .footer-menu-address-wrap {
     display: flex;
-    /*буде у рядочок за замовчуванням*/
     justify-content: space-between;
     align-items: flex-start;
     gap: 49px;
@@ -120,7 +119,6 @@
 .footer-legal-list {
     border-top: 1px solid rgba(251, 251, 251, 0.1);
     padding-top: 24px;
-
     display: flex;
     flex-wrap: wrap;
     column-gap: 20px;
@@ -136,4 +134,13 @@
 
 .copyright {
     flex-basis: 100%;
+}
+
+@media screen and (min-width: 768px) {
+.tel {
+
+}
+
+@media screen and (min-width: 1158px) {
+
 }
