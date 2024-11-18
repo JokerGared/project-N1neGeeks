@@ -71,6 +71,12 @@
   text-align: center;
   color: #fbfbfb;
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-nav-link:hover,
+.menu-nav-link:focus {
+  color: #3350e9;
 }
 
 .menu-nav-item.current-item {
