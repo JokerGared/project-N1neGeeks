@@ -68,7 +68,7 @@
       </ul>
     </div>
 
-    <button class="mobile-menu-button" type="button" data-menu-open>
+    <button class="mobile-menu-button js-open-menu" type="button">
       <svg class="mobile-menu-icon">
         <use href="/project-N1neGeeks/assets/sprite-CUjpxNHl.svg#icon-Burger"></use>
       </svg>
@@ -613,8 +613,8 @@
 
   </div>
 </section>
-      <div class="menu" data-modal>
-  <button type="button" class="close-menu-btn" data-modal-close>
+      <div class="menu js-menu-container">
+  <button type="button" class="close-menu-btn js-close-menu">
     <svg class="close-menu-icon" width="34" height="34">
       <use href="/project-N1neGeeks/assets/sprite-CUjpxNHl.svg#icon-close-btn"></use>
     </svg>
@@ -622,22 +622,26 @@
   <nav class="menu-nav">
     <ul class="menu-nav-list">
       <li class="menu-nav-item current-item">
-        <a href="/index.html" class="menu-nav-link current">Home</a>
+        <a href="/index.html" class="menu-nav-link current mobile-modal-link"
+          >Home</a
+        >
       </li>
       <li class="menu-nav-item">
-        <a href="#about-us" class="menu-nav-link">About Us</a>
+        <a href="#about-us" class="menu-nav-link mobile-modal-link">About Us</a>
       </li>
       <li class="menu-nav-item">
-        <a href="#catalog" class="menu-nav-link">Catalog</a>
+        <a href="#catalog" class="menu-nav-link mobile-modal-link">Catalog</a>
       </li>
       <li class="menu-nav-item">
-        <a href="#sale" class="menu-nav-link">Sale</a>
+        <a href="#sale" class="menu-nav-link mobile-modal-link">Sale</a>
       </li>
       <li class="menu-nav-item">
-        <a href="#reviews" class="menu-nav-link">Reviews</a>
+        <a href="#reviews" class="menu-nav-link mobile-modal-link">Reviews</a>
       </li>
       <li class="menu-nav-item">
-        <a href="contact-us" class="menu-nav-link">Contact Us</a>
+        <a href="#contact-us" class="menu-nav-link mobile-modal-link"
+          >Contact Us</a
+        >
       </li>
     </ul>
   </nav>
