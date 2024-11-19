@@ -11,6 +11,10 @@
     min-height: 581px;
 }
 
+.footer-box-up {
+    margin-bottom: auto;
+}
+
 .footer-logo-icons-wrap {
     display: flex;
     flex-direction: column;
@@ -84,7 +88,6 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
-    margin-bottom: 92px;
 }
 
 .footer-menu-address-wrap {
@@ -160,6 +163,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
+        margin-bottom: 86px;
     }
 
     .footer-logo {
@@ -188,9 +192,13 @@
 
     .footer-text {
         width: 524px;
-        margin: 0 auto 100px auto;
+        margin: 0 auto;
         font-size: 28px;
         line-height: 1.14;
+    }
+
+    .footer-menu {
+        gap: 19px;
     }
 
     .footer-menu-link {
@@ -209,15 +217,17 @@
 
     .footer-menu-address-wrap {
         margin-bottom: 28px;
+        gap: 62px;
     }
 
     .footer-legal-list {
         padding-top: 28px;
+        gap: 20px;
     }
 
     .footer-legal-text {
         font-size: 14px;
-        line-height: 1.28px;
+        line-height: 1.28;
     }
 
     .copyright {
@@ -227,14 +237,15 @@
 }
 
 @media screen and (min-width: 1258px) {
-    .footer-box {
+    .footer .container {
+        padding: 0 32px 32px 32px;
+        }
+
+        .footer-box {
         position: relative;
         display: flex;
             flex-direction: column;
             min-height: 400px;
-    }
-    .footer-box-up {
-        margin-bottom: auto
     }
 
     .footer-text {
@@ -245,10 +256,10 @@
     }
 
     .footer-contact-wrap {
-        margin-bottom: 142px;
+        margin-bottom: 0;
     }
 
     .footer-menu {
-        column-gap: 40px;
+        gap: 40px;
     }
 }
