@@ -1,6 +1,6 @@
 /* Common styles */
 @import url('./reset.css');
-@import url('./fonts.css');
+@import url('../Gilroy/stylesheet.css');
 @import url('./base.css');
 @import url('./container.css');
 
