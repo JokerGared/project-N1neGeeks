@@ -16,20 +16,48 @@ body {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-style: normal;
+  padding-top: 75px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fbfbfb;
+}
+
+footer {
+  padding-top: 75px;
 }
 
 section {
-  padding-bottom: 60px;
+  padding-top: 75px;
 }
 
 @media screen and (min-width: 768px) {
   section {
-    padding-bottom: 80px;
+    padding-top: 93px;
+  }
+  body {
+    padding-top: 93px;
+  }
+
+  footer {
+    padding-top: 93px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   section {
-    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+
+  body {
+    padding-top: 89px;
+  }
+
+  footer {
+    padding-top: 100px;
   }
 }
