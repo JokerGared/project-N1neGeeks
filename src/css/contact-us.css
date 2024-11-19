@@ -94,6 +94,7 @@
 }
 
 .form-img {
+    border-radius: 30px;
     margin: 0 auto;
 }
 
@@ -135,8 +136,6 @@
         min-height: 90px;
     }
 
-
-
     .form-input::placeholder,
     .form-comment::placeholder {
         font-size: 16px;
@@ -147,6 +146,10 @@
         border-radius: 16px;
         min-width: 160px;
         height: 52px;
+    }
+
+    .form-img {
+        border-radius: 50px;
     }
 }
 
